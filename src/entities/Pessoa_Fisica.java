@@ -1,6 +1,6 @@
 package entities;
 
-import entities.Enum.Pessoa;
+
 
 public class Pessoa_Fisica extends Declaração {
 	
@@ -10,8 +10,8 @@ public class Pessoa_Fisica extends Declaração {
 		
 	}
 	 	
-	public Pessoa_Fisica(Pessoa pessoa, String name, Double rendaAnual, Double gastosComSaude) {
-		super(pessoa, name, rendaAnual);
+	public Pessoa_Fisica( String name, Double rendaAnual, Double gastosComSaude) {
+		super(name, rendaAnual);
 		this.gastosComSaude = gastosComSaude;
 	}
 

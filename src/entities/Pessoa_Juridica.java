@@ -1,6 +1,6 @@
 package entities;
 
-import entities.Enum.Pessoa;
+
 
 public class Pessoa_Juridica extends Declaração {
 
@@ -11,8 +11,8 @@ public class Pessoa_Juridica extends Declaração {
 		super();
 	}
 
-	public Pessoa_Juridica(Pessoa pessoa, String name, Double rendaAnual, Integer numeroDeFuncionarios) {
-		super(pessoa, name, rendaAnual);
+	public Pessoa_Juridica( String name, Double rendaAnual, Integer numeroDeFuncionarios) {
+		super(name, rendaAnual);
 		this.numeroDeFuncionarios = numeroDeFuncionarios;
 	}
 

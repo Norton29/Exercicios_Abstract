@@ -1,31 +1,21 @@
 package entities;
 
-import entities.Enum.Pessoa;
-
 public abstract class Declaração {
 	
 	
-	private Pessoa pessoa;
+	
 	private String name;
 	private Double rendaAnual;
 	
 	public Declaração() {
 	}
 	
-	public Declaração(Pessoa pessoa, String name, Double rendaAnual) {
-		this.pessoa = pessoa;
+	public Declaração(String name, Double rendaAnual) {		
 		this.name = name;
 		this.rendaAnual = rendaAnual;
 	}
 
-	public Pessoa getPessoa() {
-		return pessoa;
-	}
-
-	public void setPessoa(Pessoa pessoa) {
-		this.pessoa = pessoa;
-	}
-
+	
 	public String getName() {
 		return name;
 	}
